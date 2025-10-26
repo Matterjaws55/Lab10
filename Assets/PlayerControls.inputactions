@@ -1,0 +1,86 @@
+{
+    "version": 1,
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "80ed9f82-a8f8-4780-a78d-31f8a4bccc07",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "4ffceab9-f0d6-4e89-b6cf-89cc2c4f64ae",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "9dd41426-9dbc-44ca-b189-23d254ae767c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "1c76baf4-27c3-4333-8a01-91bf9452af9d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "96fd2f42-b9eb-4852-aacc-8d1646a35626",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66d80f5f-4a1f-4185-bcfc-41d03930876e",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bce2b559-7e02-4c28-9a95-f5648cc17ec7",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4601e386-25c8-489d-a6f4-59cb7b771e31",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
